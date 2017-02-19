@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">UsingFragment</string>
+    <string name="fragment_master_title">master fragment</string>
+    <string name="fragment_detail_title">detail fragment</string>
+    <string name="btn_pass_data">PASS</string>
+</resources>

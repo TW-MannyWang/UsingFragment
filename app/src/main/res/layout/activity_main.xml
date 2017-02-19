@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context="mannywang.tw.usingfragment.MainActivity">
+
+    <fragment
+        android:id="@+id/fgm_master"
+        android:name="mannywang.tw.usingfragment.MasterFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        tools:layout="@layout/fragment_master" />
+
+    <fragment
+        android:id="@+id/fgm_detail"
+        android:name="mannywang.tw.usingfragment.DetailFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="5"
+        android:layout_toRightOf="@id/fgm_master"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_pass_data"
+        android:textSize="20dp"
+        android:onClick="onClickPassData"
+        />
+
+</LinearLayout>
