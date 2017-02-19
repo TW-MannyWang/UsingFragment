@@ -20,11 +20,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onClickPassData(View view){
-
-        Fragment fragmentMaster = (Fragment)getFragmentManager().findFragmentById(R.id.fgm_master);
-        Fragment fragmentDetail = (Fragment)getFragmentManager().findFragmentById(R.id.fgm_detail);
-
-
     }
 
     // the class use show a alert dialog on top of fragment
